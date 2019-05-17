@@ -1,0 +1,16 @@
+ 
+The data set used for in the jupyter notebook describes Airbnb listings in Seattle, Washington compiled April 15, 2019. It can be downloaded http://insideairbnb.com/get-the-data.html along with data for various other cities throughout the world. 
+
+Throughout the project, multiple predictive models of `price` will be generated given a size 16 subset of the available features in the dataset. The original dataset contained 106 columns, so the truncated data set has lost significant predictive power. Therefore, the goal is to develop the best model possible given the truncated set and gather an understanding of what might be missing from each model. Suggestions for improvement will be made and summarized at the end.
+
+The project was a partial group project for the graduate Data Science course at Johns Hopkins University.  The EDA was group effort where each member was assigned a subset of the truncated features whereas the modeling was an individual effort.  The EDA in this notebook is only of my assigned features.
+
+
+Files:
+
+* Airbnb.ipynb - jupyter notebook containing the analyses.  The bulk of the project is contained here.
+* Airbnb.html - html version of the notebook with embedded images
+* listings.csv - file which contains the airbnb  all the data analyzed
+* model.py - file acquired during Data Science course as JHU which contains several functions developed to perform linear/logistic regression on bootstrap samples.  This allows for credible intervals to be developed for evaluation statistics and coefficients
+* tree.dot - the output from 'export_graphviz'; the decision tree regression visualized
+* tree.png - tree.dot converted to png 
