@@ -14,3 +14,6 @@ Files:
 * model.py - file acquired during Data Science course as JHU which contains several functions developed to perform linear/logistic regression on bootstrap samples.  This allows for credible intervals to be developed for evaluation statistics and coefficients
 * tree.dot - the output from 'export_graphviz'; the decision tree regression visualized
 * tree.png - tree.dot converted to png 
+
+Future Work:
+* Use insights generated in present analysis along with other valid predictive features present in full feature set to improve model
